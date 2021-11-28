@@ -1,4 +1,4 @@
-Hey guys it's Adams today, so i gonna explain you how to link your image to the favicon (the little image of the top of your browser) so it's really simple.
+<-- Hey guys it's Adams today, so i gonna explain you how to link your image to the favicon (the little image of the top of your browser) so it's really simple.
 The requirements for keep this working it's:
 
 -HTML PAGE with the basic page <html> </html> <head> </head> <body> </body> and some many stuff.
@@ -7,8 +7,10 @@ The requirements for keep this working it's:
 Go to your html code : 
 
 
+--!>
+
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css" />
