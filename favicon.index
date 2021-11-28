@@ -1,0 +1,37 @@
+Hey guys it's Adams today, so i gonna explain you how to link your image to the favicon (the little image of the top of your browser) so it's really simple.
+The requirements for keep this working it's:
+
+-HTML PAGE with the basic page <html> </html> <head> </head> <body> </body> and some many stuff.
+-Your Image résolution 512x512 max.
+
+Go to your html code : 
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" />
+    
+    <-- So here we have the media queries for résponsive my website for all viewport --!>
+    
+    <link rel="stylesheet" type="text/css" media="(max-width: 1280px)" href="reso_1280.css">
+    <link rel="stylesheet" type="text/css" media="(max-width: 860px)" href="reso_860.css">
+    <link rel="stylesheet" type="text/css" media="(max-width: 480px)" href="reso_480.css">
+    <script src="main.js"></script> 
+    
+    <-- SO HERE IT'S THE PART WE'RE YOU NEED TO COPY THE LINE !! ATTENTION REPLACE logo.ico pert your name logo exemple myimage.ico --!>
+    
+    <link rel="icon" type="image/x-icon" href="logo.ico"> 
+    
+    <--     END OF FAVICON HERE --!>
+    
+    <title>Adams - GitHub</title>
+</head>
+    <body>
+      <footer>
+          <h2 onClick="javascript:window.open(' https://steamcommunity.com/id/stumpayz/', '_blank');">©Copyright <u>By Adams</u>❤️</h2>   
+        </footer>
+    </body>
+</html>
+
